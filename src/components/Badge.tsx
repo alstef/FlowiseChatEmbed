@@ -52,6 +52,7 @@ export const Badge = (props: Props) => {
       color: props.poweredByTextColor ?? defaultTextColor,
       "background-color": props.badgeBackgroundColor ?? '#ffffff'
     }}>Powered by
+<a href="https://cseu.ro/">Cirrus Europe</a>, 
       <a
         ref={liteBadge}
         href={'https://flowiseai.com'}
@@ -62,7 +63,8 @@ export const Badge = (props: Props) => {
         style={{ "font-weight": 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
         <span> Flowise</span>
-      </a>
+      </a>,
+<a href="https://openai.com/>OpenAI</a>
     </span>
   )
 }
