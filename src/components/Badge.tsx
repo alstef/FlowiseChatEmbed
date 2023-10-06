@@ -64,7 +64,7 @@ export const Badge = (props: Props) => {
       >
         <span> Flowise</span>
       </a>,
-<a href="https://openai.com/>OpenAI</a>
+<a href="https://openai.com/">OpenAI</a>
     </span>
   )
 }
